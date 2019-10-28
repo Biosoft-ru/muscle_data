@@ -1,0 +1,14 @@
+COPY genes_human("id", description, chromosome, "start", "end", strand, name, tss_count, type)
+FROM 'C:\projects\java\be5_sites\muscle_data\human\genes_human.csv' CSV HEADER;
+
+Gene stable ID
+Gene description
+Chromosome/scaffold name
+Gene start (bp)
+Gene end (bp)
+Strand
+Gene name
+Transcript count
+Gene type
+
+
